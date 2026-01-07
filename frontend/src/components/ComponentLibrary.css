@@ -1,0 +1,58 @@
+.component-library {
+  width: 250px;
+  background-color: white;
+  border-right: 1px solid #e0e0e0;
+  padding: 1rem;
+  overflow-y: auto;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.component-library h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.library-subtitle {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.component-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.component-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  cursor: grab;
+  transition: all 0.2s;
+}
+
+.component-item:hover {
+  background-color: #e9ecef;
+  border-color: #007bff;
+  transform: translateX(4px);
+}
+
+.component-item:active {
+  cursor: grabbing;
+}
+
+.component-icon {
+  font-size: 1.5rem;
+}
+
+.component-label {
+  font-weight: 500;
+  color: #333;
+}
+
